@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+}
+
+/*päis*/
+header, footer {
+	background-color:#FCF3CF;
+	background-size: 100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+/*põhisisu*/
+.content {
+	width: 1140px;
+	background-color: #FAE5D3;
+	margin: auto;
+	padding-top: 30px;
+}
+
+h1, h2 {
+	color: #FF8A65;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+.album-block p {
+	color: #000000;
+	text-align: justify;
+	font-size: 16px;
+}
+
+.album-block img {
+	height: 240px;
+	text-align: center;
+	padding-bottom: 8px;
+	border-radius: 50%;
+}
+
+.albums a {
+	text-decoration: none;
+	border: 1px solid #FAE5D3;
+}
+
+.logo {
+	border-bottom-style: dotted;
+	border-color: #80CBC4;
+	color: #80CBC4;
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+.album-list {
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.album-block {
+	width: 250px;
+	text-align: center;
+	padding: 8px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+.albums {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+
+.albums a:hover {
+	border: 1px solid #80CBC4;
+}
+
+/* albumite lehed*/
+.album-name {
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.back {
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 60px; 
+}
+
+.back a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+	padding: 8px;
+}
+
+.back a:hover {
+	color: #80CBC4;
+}
+.cover-img img {
+	text-align: left;
+	height: 240px;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-right: 120px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+table tr {
+	border-top: 1px solid #80CBC4;
+}
+
+td {
+	padding-bottom: 8px;
+	text-align: right;
+}
+
+.medium {
+	text-align: left;
+	padding-right: 60px;
+	font-weight: bold;
+}
+
+
+/*jalus*/
+footer {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+footer p {
+	color: #0C090A;
+	text-align: center;
+	line-height: 120%;
+}
+
